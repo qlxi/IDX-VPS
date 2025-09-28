@@ -712,8 +712,7 @@ show_vm_performance() {
 # Main menu function
 main_menu() {
     while true; do
-        display_header
-        
+    
         local vms=($(get_vm_list))
         local vm_count=${#vms[@]}
         
